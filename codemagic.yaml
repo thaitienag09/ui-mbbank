@@ -19,8 +19,3 @@ workflows:
       - "*.tipa"
       - "*.ipa"
       - build/*.app
-    publishing:
-      email:
-        recipients:
-          - [vietnammonster2003@gmail.com] # Thay đổi email này nếu bạn muốn nhận thông báo, hoặc xóa toàn bộ phần publishing
-
