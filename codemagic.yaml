@@ -16,6 +16,6 @@ workflows:
         script: |
           ./ipabuild.sh
     artifacts:
-      - "*.tipa"
-      - "*.ipa"
-      - build/*.app
+      - "build/*.tipa"
+      - "build/*.ipa"
+      - "build/*.app"
