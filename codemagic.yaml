@@ -22,4 +22,5 @@ workflows:
     publishing:
       email:
         recipients:
-          - ${{ github.actor }}@users.noreply.github.com
+          - [vietnammonster2003@gmail.com] # Thay đổi email này nếu bạn muốn nhận thông báo, hoặc xóa toàn bộ phần publishing
+
